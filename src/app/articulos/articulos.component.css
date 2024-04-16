@@ -1,0 +1,91 @@
+/* En tu archivo clientes.component.css */
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 16px;
+}
+.table-filter {
+  width: 300px; /* Ajusta según sea necesario */
+}
+/*ICONOS DE EDITAR*/
+mat-icon {
+  cursor: pointer;
+  color: rgb(255, 0, 0); /* Color rojo para el icono de eliminar, ajusta según tu paleta de colores */
+}
+
+mat-icon:hover {
+  color: #ffffff; /* Color rojo más oscuro al pasar el cursor */
+}
+
+.orange-button {
+  background-color: rgb(235, 101, 53);
+  color: rgb(0, 0, 0);
+}
+
+.sidenav {
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical */
+  height: 100%; /* Ajusta la altura del menú para que ocupe toda la pantalla */
+}
+
+.menu-container {
+  padding: 16px; /* Ajusta el espacio interno del contenedor del menú */
+}
+
+.table-container {
+  margin-top: 16px; /* Ajusta el espacio superior del contenedor de la tabla */
+  
+}
+
+
+.barra {
+  background-color: rgb(249, 139, 15);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ocupa el 100% de la altura del contenedor padre */
+}
+
+.mat-nav-list {
+  flex: 1; /* La lista de navegación ocupará todo el espacio disponible */
+
+}
+.fondo-negro {
+  background-color: rgb(249, 139, 15);
+  color: rgb(
+    255,
+    255,
+    255
+  ); /* Puedes ajustar el color del texto según tus preferencias */
+}
+.toolbar button.orange-button {
+  border: 1px solid rgb(0, 0, 0);
+  /* Otros estilos opcionales */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 8px 16px; /* Espacio interno */
+  background-color: rgb(249, 139, 15); /* Color de fondo */
+  color: rgb(0, 0, 0); /* Color del texto */
+}
+.mat-sidenav-container {
+  background-color: rgb(249, 139, 15); /* Color de fondo */
+  color: rgb(249, 139, 15); /* Color del texto */
+  height: 100vh; /* Ajusta la altura del contenedor al 100% de la ventana */
+}
+.mat-table {
+  width: 100%;
+  border-collapse: collapse; /* Fusiona los bordes de las celdas */
+}
